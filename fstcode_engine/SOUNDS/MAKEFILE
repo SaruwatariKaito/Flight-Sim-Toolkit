@@ -1,0 +1,17 @@
+# MAKE for Sound Card Drivers
+
+OBJ= test.obj sblaster.obj sndfiles.obj sndriver.obj ralloc_a.obj
+
+
+FLAGS= -x -mx -o-liv-li -r -I\tp\world -I\tp\graph
+
+test:  $(OBJ)
+        LINK386 @linkf /NOI/MAP
+.c.obj:
+	SC $(FLAGS) -c $*
+.asm.obj:
+	SC $(FLAGS) -c $*
+
+
+
+

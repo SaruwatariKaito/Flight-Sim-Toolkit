@@ -1,0 +1,9 @@
+Contents of CD
+==============
+
+Code     - C source ready for compilation using Watcom 10.5 C compiler
+Docs     - tools and overview documents
+Dostools - useful tools
+P1       - project
+Sounds   - useful source for reference - not explicitly part of FST
+Tools    - The standard FST tool set
