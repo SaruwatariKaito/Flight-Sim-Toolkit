@@ -1,0 +1,6 @@
+NAME    test.exe
+OPTION  CASEEXACT
+OPTION  STACK=20480,STUB=c:\watcom\binb\wstub.exe
+LIBPATH c:\watcom\lib386;c:\watcom\lib386\dos
+FILE	test.obj,graph3.obj,collide.obj,trans.obj,graph2.obj,tex.obj,trig.obj,graphpc.obj,prims.obj
+FILE	vga13.obj,vesa.obj

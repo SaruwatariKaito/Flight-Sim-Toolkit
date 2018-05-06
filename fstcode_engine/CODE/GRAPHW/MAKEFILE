@@ -1,0 +1,9 @@
+OBJ=test.obj graph3.obj collide.obj trans.obj graph2.obj tex.obj trig.obj graphpc.obj prims.obj
+DRV=vga13.obj vesa.obj
+FLAGS= /zq /oxt /l=dos4g /bt=dos
+test.exe: $(OBJ) $(DRV)
+	wlink @test.lnk
+.c.obj:
+	wcl386 $(FLAGS) -c $*
+.asm.obj:
+	\SC\BIN\SC -mx -c $*

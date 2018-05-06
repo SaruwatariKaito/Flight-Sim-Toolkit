@@ -1,0 +1,6 @@
+$MACRO GLOBAL TO <CtrlF8> FROM EDIT;
+	Key_In(<CtrlRT><ShftF7><CtrlRT><LF><LF><F7><HOME><UP><ENTER>/<*> <-><-><-><->
+<-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><->
+<-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><-><ENTER>GLOBAL< >
+ <F9><END><ENTER><LF><ENTER><LF>/);
+END_MACRO;
