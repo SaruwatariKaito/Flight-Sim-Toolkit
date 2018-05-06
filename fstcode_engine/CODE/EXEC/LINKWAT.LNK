@@ -1,0 +1,16 @@
+NAME    fly.exe
+OPTION	MAP=FLY.MAP
+OPTION  CASEEXACT
+OPTION  STACK=40480,STUB=c:\watcom\binb\wstub.exe
+LIBPATH c:\watcom\lib386;c:\watcom\lib386\dos
+FILE	cultural,ndb,vor,ils,aagun,sam,depot,hanger,brick,plane,military
+FILE	track,rocket,missile,weapons,truck,aircraft,flare,eject
+FILE	main,menu,load,control,gauges,inter,sound
+FILE	..\graphw\graph3,..\graphw\trans,..\graphw\graph2,..\graphw\collide
+FILE	..\graphw\graphpc,..\graphw\trig,..\graphw\prims,..\graphw\tex
+FILE	..\graphw\vga13,..\graphw\vesa
+FILE	..\WORLD\MEM,..\WORLD\HASH,..\WORLD\LISTS,..\WORLD\SYMBOL
+FILE	..\WORLD\WORLD,..\WORLD\GROUND,..\WORLD\SHAPE,..\WORLD\OBJECTS
+FILE	..\WORLD\MOBILE,..\WORLD\BANGS,..\WORLD\BULLETS,..\WORLD\EXPLO
+FILE	..\WORLD\SMOKE
+FILE	..\io\pcio,..\io\pic,..\io\colour,..\io\bitmap,..\io\text

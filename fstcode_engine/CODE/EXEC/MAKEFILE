@@ -1,0 +1,9 @@
+CLASS=cultural.obj ndb.obj vor.obj ils.obj aagun.obj sam.obj depot.obj hanger.obj brick.obj plane.obj military.obj track.obj rocket.obj missile.obj weapons.obj truck.obj aircraft.obj flare.obj eject.obj
+OBJ=main.obj load.obj control.obj gauges.obj menu.obj sound.obj inter.obj
+FLAGS= /zq /oxt /l=dos4g /bt=dos /i=..\graphw /i=..\io /i=..\world
+
+fly.exe:  $(OBJ) $(CLASS)
+	wlink @linkwat.lnk
+
+.c.obj:
+	wcl386 $(FLAGS) -c $*
