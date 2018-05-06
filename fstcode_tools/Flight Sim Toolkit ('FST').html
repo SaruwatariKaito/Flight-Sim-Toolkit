@@ -1,0 +1,221 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0031)http://www.kuju.com/fstload.htm -->
+<HTML><HEAD><TITLE>Flight Sim Toolkit ('FST')</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<SCRIPT language=JavaScript>
+<!--
+
+function preventRightClick(e) {
+	if (navigator.appName == 'Netscape' && (e.which == 3 || e.which == 2))
+		return false;
+	else if (navigator.appName == 'Microsoft Internet Explorer' &&
+													(event.button == 2 || event.button == 3)) {
+		alert("Sorry, this function is disabled.");
+		return false;
+	}
+	return true;
+}
+
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript>
+<!--
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+
+function MM_displayStatusMsg(msgStr) { //v1.0
+  status=msgStr;
+  document.MM_returnValue = true;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+//-->
+</SCRIPT>
+<LINK href="Flight Sim Toolkit ('FST')_files/kujubar.css" type=text/css 
+rel=stylesheet>
+<META content="Microsoft FrontPage 5.0" name=GENERATOR></HEAD>
+<BODY text=#000000 vLink=#566282 aLink=#566282 link=#566282 bgColor=#ffffff 
+onload="MM_preloadImages('images/maccept2.gif')"><A name=top></A>
+<TABLE cellSpacing=0 cellPadding=0 width=550 align=center border=0 
+name="Master">
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD width=25>&nbsp;</TD>
+          <TD>&nbsp;</TD>
+          <TD width=25>&nbsp;</TD></TR>
+        <TR>
+          <TD width=25>&nbsp;</TD>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT face="Verdana, Arial" color=#a5afc7 size=5><B><FONT 
+                  color=#607ca8>flight sim toolkit 
+              (fst)</FONT></B></FONT></TD></TR></TBODY></TABLE></TD>
+          <TD width=25>&nbsp;</TD></TR>
+        <TR>
+          <TD width=25>&nbsp;</TD>
+          <TD width=500>&nbsp;</TD>
+          <TD width=25>&nbsp;</TD></TR>
+        <TR>
+          <TD width=25>&nbsp;</TD>
+          <TD width=500 bgColor=#bac5d6><FONT face="Verdana, Arial" 
+            color=#000000 size=2><B>LICENCE AGREEMENT </B></FONT></TD>
+          <TD width=25>&nbsp;</TD></TR>
+        <TR>
+          <TD width=25>&nbsp;</TD>
+          <TD width=500 bgColor=#ebeef3>
+            <P align=left><B><FONT face="Verdana, Arial, Helvetica, sans-serif" 
+            color=#ff0000 size=2><B><FONT 
+            face="Geneva, Arial, Helvetica, san-serif">THE ACCOMPANYING PROGRAM 
+            IS PROVIDED UNDER THE TERMS OF THIS KUJU PUBLIC LICENCE 
+            ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM 
+            CONSTITUTES YOUR ACCEPTANCE OF THIS 
+            AGREEMENT.</FONT></B></FONT><FONT 
+            face="Geneva, Arial, Helvetica, san-serif" color=#000000 
+            size=2><BR><BR>DEFINITIONS</FONT></B><FONT 
+            face="Geneva, Arial, Helvetica, san-serif" color=#000000 
+            size=2><BR>"Program" refers to the collection of files distributed 
+            by Kuju, and derivatives of that collection of files. </FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2>"Kuju" means Kuju Entertainment Limited, a 
+            company registered in England and Wales having company number 
+            3481384 and registered office at Unit 10 Woodside Park, Catteshall 
+            Lane, Godalming, Surrey GU7 1LG.</FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2>"You" is the person or entity downloading, 
+            distributing or howsoever using the Program, and "Your" and 
+            "Yourself" shall be construed accordingly. </FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2><B>1. LICENCE TO USE / GRANT OF 
+            RIGHTS</B><BR>Permission is granted to You to download and use the 
+            Program without payment of a licence fee for any not-for-profit 
+            lawful purpose on any computer system, and to alter it and 
+            redistribute it freely, subject to and in consideration of Your 
+            acceptance and compliance with the terms of this Agreement. The 
+            parties acknowledge that the grant of a licence in return for 
+            compliance with the terms of this Agreement constitutes good 
+            consideration.</FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2><B>2. REQUIREMENTS AND RESTRICTIONS</B><BR>2.1 
+            You may make and give away verbatim copies of the source form of the 
+            Program without restriction, provided that You duplicate all of the 
+            original copyright notices and associated disclaimers, including 
+            this Agreement.</FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2>2.2 You may modify and redistribute this 
+            Program in any form provided: <BR>i) You comply with the terms of 
+            2.1; and <BR>ii) You place Your modifications in the public domain 
+            or otherwise make them freely available; and<BR>iii) You clearly 
+            document the modifications You have made to the Program, identifying 
+            the nature of the change and Yourself.</FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2>2.3 Kuju's name may not be used to endorse or 
+            promote products derived from this software without specific prior 
+            written permission. </FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2><B>3. NO COMMERCIAL DISTRIBUTION </B><BR>No 
+            commercial use or exploitation of this Program involving resale of 
+            all or part of the Program, whether modified or not, is 
+            permitted.</FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2><B>4. NO SUPPORT</B><BR>Kuju will not provide 
+            any technical support for the Program.</FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2><B>5. NO WARRANTY</B><BR>EXCEPT AS EXPRESSLY 
+            SET FORTH IN THIS AGREEMENT AND TO THE MAXIMUM EXTENT PERMITTED BY 
+            APPLICABLE LAW, THE PROGRAM IS PROVIDED BY KUJU, WITHOUT TERMS, 
+            REPRESENTATIONS, CONDITIONS OR WARRANTIES OF ANY KIND, WHETHER 
+            WRITTEN, ORAL, STATUTORY, EXPRESS OR IMPLIED INCLUDING, WITHOUT 
+            LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, 
+            SATISFACTORY QUALITY, REASONABLE SKILL AND CARE OR FITNESS FOR A 
+            PARTICULAR PURPOSE. The parties agree that they have not relied upon 
+            any terms, representations, conditions or warranties in entering 
+            into this Agreement other than those set out herein. The preceding 
+            sentence of this Clause 5 shall not apply in the case of 
+            fraud.</FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2><B>6. INDEMNITY; DISCLAIMER OF 
+            LIABILITY</B><BR>You agree to indemnify, defend and hold Kuju 
+            harmless from and against any claim, liability, damage, expense or 
+            cost in connection with your use of the Program.</FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2>EXCEPT IN RESPECT OF ANY LIABILITY FOR DEATH OR 
+            PERSONAL INJURY CAUSED BY ITS NEGLIGENCE, FRAUD OR ANY OTHER 
+            LIABILITY THAT CANNOT BE EXCLUDED UNDER APPLICABLE LAW AND AS 
+            EXPRESSLY SET FORTH IN THIS AGREEMENT, KUJU SHALL NOT HAVE ANY 
+            LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, 
+            EXEMPLARY, OR CONSEQUENTIAL DAMAGES, LOSS OF PROFIT, OR LOSS OF 
+            DATA, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+            CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR 
+            OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE 
+            PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF 
+            ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND INCLUDING, WITHOUT 
+            LIMITATION, LIABILITY FOR INFRINGEMENT OF THIRD PARTY RIGHTS. 
+            </FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2><B>7. GENERAL </B><BR>If any provision of this 
+            Agreement is invalid or unenforceable under applicable law, it shall 
+            not affect the validity or enforceability of the remainder of the 
+            terms of this Agreement, and without further action by the parties 
+            hereto, such provision shall be reformed to the minimum extent 
+            necessary to make such provision valid and enforceable. <BR>Nothing 
+            in this Agreement shall be deemed to place the parties in the 
+            relationship of employer-employee, principal-agent, partners, or 
+            joint venturers.</FONT></P>
+            <P align=left><FONT face="Geneva, Arial, Helvetica, san-serif" 
+            color=#000000 size=2>The construction, validity and performance of 
+            the Agreement shall be governed by and construed in accordance with 
+            the laws of England and each of the parties hereby irrevocably 
+            submit to the non-exclusive jurisdiction of the English 
+            courts.</FONT><BR></P></TD>
+          <TD width=25>&nbsp;</TD></TR>
+        <TR>
+          <TD width=25>&nbsp;</TD>
+          <TD width=500 bgColor=#bac5d6>&nbsp;</TD>
+          <TD width=25>&nbsp;</TD></TR>
+        <TR>
+          <TD width=25>&nbsp;</TD>
+          <TD width=500>&nbsp;</TD>
+          <TD 
+width=25>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTML>
